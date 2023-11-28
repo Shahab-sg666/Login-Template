@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cinzel:wght@400;500;600;700;800;900&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
 
 
 /* reset all elements */
@@ -10,7 +12,7 @@
 
 html {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Agbalumo;
 }
 
 .hero__container {
@@ -20,11 +22,13 @@ html {
     justify-content: center;
     background-color: rgb(90, 0, 235);
 }
+
 .title__container {
     margin: 15rem 0;
     font-size: 2rem;
     color: #fff;
 }
+
 .login__container {
     display: block;
     width: 40rem;
@@ -36,15 +40,19 @@ html {
     border-radius: 2rem;
     box-shadow: 0 4px 16px rgba(34, 24, 24, 0.574);
 }
+
 .login__container h1 {
     padding: 1rem 2rem;
 }
+
 .login__container p {
     padding: 0 0 4rem 2rem;
 }
+
 .login__container label {
     margin: 0 2rem;
 }
+
 .login__container input {
     display: block;
     padding: 1rem;
@@ -56,6 +64,7 @@ html {
     border-radius: 1rem;
     outline: none;
 }
+
 .login__container a {
     color: #fff;
     text-decoration: none;
